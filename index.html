@@ -6,75 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+   
+    <!-- nav-bar component start -->
+    <style>
+        body {
+            visibility: hidden;
+        }
+    </style>
+    <script src="nav-component.js"></script>
+    <!-- navbar-component end -->
+      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+
 </head>
 
 <body>
     <div class="page-wrapper">
-        <nav class="navbar navbar-content">
-            <div class="nav-bar-container">
-                <a href="" class="navbar-linkblock"> <div class="navbar-logo-text">
-                    Sai Bioenergy
-                </div> </a>
-                <div class="navbar-menu">
-                    <div class="nav-link-wrapper">
-                        <a href="/about" class="nav-link navigation link-1">About</a>
-                    </div>
-                    <div class="nav-link-wrapper">
-                        <a href="/about" class="nav-link navigation link-1">Services</a>
-                    </div>
-                    <div class="nav-link-wrapper">
-                        <a href="/about" class="nav-link navigation link-1">Projects</a>
-                    </div>
-                    <div class="nav-link-wrapper">
-                        <a href="/about" class="nav-link navigation link-1">Blogs</a>
-                    </div>
-                    <div class="nav-link-wrapper">
-                        <a href="/about" class="nav-link navigation link-1">Testimonials</a>
-                    </div>
-                </div>
-                <div class="navbar-cta-wrapper">
-                    <a href="" class="cta">
-                        <div class="cta-text">
-                            Contact Us
-                        </div>
-                        <div class="cta-icon-wrap">
-                            <img src="" alt="">
-                        </div>
-                    </a>
-                </div>
-                <button class="navbar-hamburger-btn">
-                    <div class="navbar-lottie-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                            viewBox="0 0 730 630" width="730" height="630" preserveAspectRatio="xMidYMid meet"
-                            style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
-                            <defs>
-                                <clipPath id="__lottie_element_2">
-                                    <rect width="730" height="630" x="0" y="0"></rect>
-                                </clipPath>
-                            </defs>
-                            <g clip-path="url(#__lottie_element_2)">
-                                <g transform="matrix(1,0,0,1,365,315)" opacity="1" style="display: block;">
-                                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
-                                        <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"
-                                            stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="55"
-                                            d=" M-327,-176.5 C-327,-176.5 327,-176.5 327,-176.5"></path>
-                                    </g>
-                                </g>
-                                <g transform="matrix(1,0,0,1,365,315)" opacity="1" style="display: block;">
-                                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
-                                        <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"
-                                            stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="55"
-                                            d=" M-327,176.5 C-327,176.5 327,176.5 327,176.5"></path>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
-                    </div>
-                </button>
-            </div>
-        </nav>
+        <nav-bar></nav-bar>
         <main class="main-wrapper">
-            <section class="section---home-hero home-page">
+            <section class="section---home-hero home-page ">
                 <div class="content-one">
                     <div class="container-large">
                         <div class="home-hero-wrapper">
@@ -373,8 +323,7 @@
 
                                     </div>
                                     <div class="services-block-image-wrapper">
-                                        <img src="images/services-image-1.png" alt=""
-                                            class="services-block-bg-image">
+                                        <img src="images/services-image-1.png" alt="" class="services-block-bg-image">
                                     </div>
 
                                 </div>
@@ -414,8 +363,7 @@
 
                                     </div>
                                     <div class="services-block-image-wrapper">
-                                        <img src="images/services-image-2.png" alt=""
-                                            class="services-block-bg-image">
+                                        <img src="images/services-image-2.png" alt="" class="services-block-bg-image">
                                     </div>
 
                                 </div>
@@ -458,8 +406,7 @@
 
                                     </div>
                                     <div class="services-block-image-wrapper">
-                                        <img src="images/services-image-3.png" alt=""
-                                            class="services-block-bg-image">
+                                        <img src="images/services-image-3.png" alt="" class="services-block-bg-image">
                                     </div>
 
                                 </div>
@@ -588,7 +535,8 @@
                                             <h3 class="process-block-heading subtitle">
                                                 Site Audit
                                             </h3>
-                                            <p class="process-block-subtext">Performed waste and energy assessment; estimated 4–5 tons of daily cow dung.</p>
+                                            <p class="process-block-subtext">Performed waste and energy assessment;
+                                                estimated 4–5 tons of daily cow dung.</p>
                                         </div>
                                     </div>
                                     <div class="process-block-right-wrapper">
@@ -607,14 +555,18 @@
                                         </div>
                                         <div class="process-block-detail-wrapper">
                                             <div class="process-block-icon-wrapper">
-                                               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9 4.62891C9 2.21266 10.9588 0.253906 13.375 0.253906C13.8159 0.253906 14.2427 0.319338 14.6456 0.441445C14.8558 0.505162 15.0172 0.674564 15.0706 0.887642C15.124 1.10072 15.0616 1.32619 14.9063 1.48152L12.1407 4.2471C12.1921 4.64342 12.3699 5.02542 12.6742 5.32973C12.9785 5.63404 13.3605 5.8118 13.7568 5.86321L16.5224 3.09763C16.6777 2.94231 16.9032 2.87992 17.1163 2.93332C17.3293 2.98672 17.4987 3.14806 17.5625 3.35829C17.6846 3.76116 17.75 4.18796 17.75 4.62891C17.75 7.04515 15.7912 9.00391 13.375 9.00391C13.2496 9.00391 13.1253 8.99861 13.0023 8.98822C12.1546 8.91656 11.4448 9.07193 11.0787 9.51651L5.11939 16.7528C4.59737 17.3867 3.81923 17.7539 2.99807 17.7539C1.48035 17.7539 0.25 16.5236 0.25 15.0058C0.25 14.1847 0.617221 13.4065 1.2511 12.8845L8.4874 6.92522C8.93197 6.55909 9.08735 5.84935 9.01569 5.00164C9.00529 4.87864 9 4.75432 9 4.62891ZM2.43103 14.9414C2.43103 14.5963 2.71085 14.3164 3.05603 14.3164H3.06228C3.40746 14.3164 3.68728 14.5963 3.68728 14.9414V14.9477C3.68728 15.2929 3.40746 15.5727 3.06228 15.5727H3.05603C2.71085 15.5727 2.43103 15.2929 2.43103 14.9477V14.9414Z" fill="#002D25"/>
-</svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                    viewBox="0 0 18 18" fill="none">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M9 4.62891C9 2.21266 10.9588 0.253906 13.375 0.253906C13.8159 0.253906 14.2427 0.319338 14.6456 0.441445C14.8558 0.505162 15.0172 0.674564 15.0706 0.887642C15.124 1.10072 15.0616 1.32619 14.9063 1.48152L12.1407 4.2471C12.1921 4.64342 12.3699 5.02542 12.6742 5.32973C12.9785 5.63404 13.3605 5.8118 13.7568 5.86321L16.5224 3.09763C16.6777 2.94231 16.9032 2.87992 17.1163 2.93332C17.3293 2.98672 17.4987 3.14806 17.5625 3.35829C17.6846 3.76116 17.75 4.18796 17.75 4.62891C17.75 7.04515 15.7912 9.00391 13.375 9.00391C13.2496 9.00391 13.1253 8.99861 13.0023 8.98822C12.1546 8.91656 11.4448 9.07193 11.0787 9.51651L5.11939 16.7528C4.59737 17.3867 3.81923 17.7539 2.99807 17.7539C1.48035 17.7539 0.25 16.5236 0.25 15.0058C0.25 14.1847 0.617221 13.4065 1.2511 12.8845L8.4874 6.92522C8.93197 6.55909 9.08735 5.84935 9.01569 5.00164C9.00529 4.87864 9 4.75432 9 4.62891ZM2.43103 14.9414C2.43103 14.5963 2.71085 14.3164 3.05603 14.3164H3.06228C3.40746 14.3164 3.68728 14.5963 3.68728 14.9414V14.9477C3.68728 15.2929 3.40746 15.5727 3.06228 15.5727H3.05603C2.71085 15.5727 2.43103 15.2929 2.43103 14.9477V14.9414Z"
+                                                        fill="#002D25" />
+                                                </svg>
                                             </div>
                                             <h3 class="process-block-heading subtitle">
                                                 Construction
                                             </h3>
-                                            <p class="process-block-subtext">Performed waste and energy assessment; estimated 4–5 tons of daily cow dung.</p>
+                                            <p class="process-block-subtext">Performed waste and energy assessment;
+                                                estimated 4–5 tons of daily cow dung.</p>
                                         </div>
                                     </div>
                                     <div class="process-block-right-wrapper">
@@ -633,14 +585,18 @@
                                         </div>
                                         <div class="process-block-detail-wrapper">
                                             <div class="process-block-icon-wrapper">
-                                               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0.875 3.37891C0.875 1.99819 1.99429 0.878906 3.375 0.878906H14.625C16.0057 0.878906 17.125 1.99819 17.125 3.37891V11.5039C17.125 12.8846 16.0057 14.0039 14.625 14.0039H12.125V14.2184C12.125 14.7157 12.3225 15.1926 12.6742 15.5442L13.1919 16.062C13.3707 16.2407 13.4242 16.5095 13.3274 16.7431C13.2307 16.9766 13.0028 17.1289 12.75 17.1289H5.25C4.99721 17.1289 4.76931 16.9766 4.67258 16.7431C4.57584 16.5095 4.62931 16.2407 4.80806 16.062L5.32583 15.5442C5.67746 15.1926 5.875 14.7157 5.875 14.2184V14.0039H3.375C1.99429 14.0039 0.875 12.8846 0.875 11.5039V3.37891ZM2.125 3.37891V9.62891C2.125 10.3193 2.68464 10.8789 3.375 10.8789H14.625C15.3154 10.8789 15.875 10.3193 15.875 9.62891V3.37891C15.875 2.68855 15.3154 2.12891 14.625 2.12891H3.375C2.68464 2.12891 2.125 2.68855 2.125 3.37891Z" fill="#002D25"/>
-</svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                    viewBox="0 0 18 18" fill="none">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M0.875 3.37891C0.875 1.99819 1.99429 0.878906 3.375 0.878906H14.625C16.0057 0.878906 17.125 1.99819 17.125 3.37891V11.5039C17.125 12.8846 16.0057 14.0039 14.625 14.0039H12.125V14.2184C12.125 14.7157 12.3225 15.1926 12.6742 15.5442L13.1919 16.062C13.3707 16.2407 13.4242 16.5095 13.3274 16.7431C13.2307 16.9766 13.0028 17.1289 12.75 17.1289H5.25C4.99721 17.1289 4.76931 16.9766 4.67258 16.7431C4.57584 16.5095 4.62931 16.2407 4.80806 16.062L5.32583 15.5442C5.67746 15.1926 5.875 14.7157 5.875 14.2184V14.0039H3.375C1.99429 14.0039 0.875 12.8846 0.875 11.5039V3.37891ZM2.125 3.37891V9.62891C2.125 10.3193 2.68464 10.8789 3.375 10.8789H14.625C15.3154 10.8789 15.875 10.3193 15.875 9.62891V3.37891C15.875 2.68855 15.3154 2.12891 14.625 2.12891H3.375C2.68464 2.12891 2.125 2.68855 2.125 3.37891Z"
+                                                        fill="#002D25" />
+                                                </svg>
                                             </div>
                                             <h3 class="process-block-heading subtitle">
                                                 Site Audit
                                             </h3>
-                                            <p class="process-block-subtext">Performed waste and energy assessment; estimated 4–5 tons of daily cow dung.</p>
+                                            <p class="process-block-subtext">Performed waste and energy assessment;
+                                                estimated 4–5 tons of daily cow dung.</p>
                                         </div>
                                     </div>
                                     <div class="process-block-right-wrapper">
@@ -672,12 +628,12 @@
                                 <div class="impact-image-wrapper">
                                     <img src="images/impact-map.png" alt="" class="impact-image">
                                     <!-- <img src="" alt="" class="map-pointers point-1"> -->
-                                     <div class="map-pointers point-1"></div>
-                                     <div class="map-pointers point-2"></div>
-                                     <div class="map-pointers point-3"></div>
-                                     <div class="map-pointers point-4"></div>
-                                     <div class="map-pointers point-5"></div>
-                                     <div class="map-pointers point-6"></div>
+                                    <div class="map-pointers point-1"></div>
+                                    <div class="map-pointers point-2"></div>
+                                    <div class="map-pointers point-3"></div>
+                                    <div class="map-pointers point-4"></div>
+                                    <div class="map-pointers point-5"></div>
+                                    <div class="map-pointers point-6"></div>
 
                                 </div>
                             </div>
@@ -762,6 +718,14 @@
 
         </main>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
 </body>
+
 
 </html>

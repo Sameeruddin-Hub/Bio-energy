@@ -106,9 +106,22 @@ button {
     backdrop-filter: blur(7px);
     background-color: #002d2566;
     padding: .75rem 4rem;
+    position: fixed;
 }
 .nav-bar-container {
     background-color: #0000;
+    /* justify-content: space-between;
+    align-items: center; */
+    max-width: 100rem;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* width: 100%; */
+}
+.nav-container-top{
+     background-color: #0000;
     justify-content: space-between;
     align-items: center;
     max-width: 100rem;
@@ -125,9 +138,12 @@ button {
     align-items: center;
     display: flex;
 }
-.navbar-cta-wrapper{
+.navbar-menu-mobile{
 
 }
+/* .navbar-cta-wrapper{
+
+} */
 .navbar-logo-text {
     color: var(--white);
     font-size: 18px;
@@ -212,6 +228,10 @@ button {
     overflow: hidden;
 }
 .navbar-hamburger-btn{
+    background: none;
+    border: none;
+}
+.hide{
     display: none;
 }
 .nav-link-wrapper {
@@ -244,8 +264,14 @@ button {
     text-decoration: none;
     transition: color .35s;
 }
-
-
+.navbar-hamburger-btn{
+        display: none;
+    }
+.nav-link.mobile-menu{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
 .nav-link.navigation.secondary {
     color: var(--accent);
 }
@@ -254,6 +280,19 @@ button {
     border-color: var(--accent);
     background-color: var(--primary);
     color: var(--accent);
+}
+.nav-link.active-menu{
+     border-color: var(--accent);
+    background-color: var(--primary);
+    color: var(--accent);
+}
+.navbar-lottie-icon{
+    height: 40px;
+    background: none;
+}
+.nav-cta-menu{
+    display: flex;
+    gap: 24px;
 }
 /* Hero section */
 .section---home-hero.home-page {
@@ -1186,4 +1225,28 @@ input.w-button {
 }
 .form-submit-button.sub-form-block:hover {
     background-color: var(--primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media query */
+@media(max-width:991px){
+    .navbar-menu{
+        display: none;
+    }
+    .navbar-hamburger-btn{
+        display: block ;
+    }
+    .navbar-cta-wrapper{
+        display: none;
+    }
+ 
 }
