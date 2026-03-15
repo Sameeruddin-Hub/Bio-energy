@@ -1491,6 +1491,10 @@ input.w-button {
         grid-row-gap: 2rem;
         grid-template-columns: 1fr;
     }
+    .project-preview-image-wrapper {
+        aspect-ratio: 1;
+        height: auto;
+    }
     .solutions-grid {
         grid-column-gap: 1rem;
         grid-row-gap: 1rem;
@@ -1531,4 +1535,24 @@ input.w-button {
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
+        .blog-cms-list {
+        grid-row-gap: 3rem;
+        grid-template-columns: 1fr;
+    }
+        .home-hero-feature-row {
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-hero-bottom-container {
+        grid-row-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    
+    .offer-block {
+        padding: 1.5rem;
+    }
+
 }
