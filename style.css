@@ -57,6 +57,68 @@ figure {
 p {
     font-size: 18px;
 }
+/* icons */
+:root {
+  --icon-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 8' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 4C-1.81059e-08 3.58579 0.335786 3.25 0.75 3.25L13.3401 3.25L11.2397 1.2996C10.9361 1.01775 10.9186 0.543198 11.2004 0.239665C11.4823 -0.0638681 11.9568 -0.0814439 12.2603 0.200408L15.7603 3.45041C15.9132 3.59232 16 3.79145 16 4C16 4.20855 15.9132 4.40769 15.7603 4.5496L12.2603 7.7996C11.9568 8.08145 11.4823 8.06387 11.2004 7.76034C10.9186 7.45681 10.9361 6.98226 11.2397 6.70041L13.3401 4.75L0.75 4.75C0.335786 4.75 1.81059e-08 4.41422 0 4Z' fill='%23002D25'/%3E%3C/svg%3E");
+  
+  --icon-energy: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M12 0.753906C6 0.753906 0.75 5.57891 0.75 12.0039C0.75 14.6539 1.675 17.0914 3.2125 19.0164L0.75 21.4914L2.5125 23.2539L4.975 20.7914C6.9125 22.3289 9.35 23.2539 12 23.2539C14.875 23.2539 17.7625 22.1539 19.95 19.9539C22.15 17.7664 23.25 14.8789 23.25 12.0039V0.753906H12ZM20.75 12.0039C20.75 14.3414 19.8375 16.5414 18.1875 18.1914C16.5375 19.8414 14.3375 20.7539 12 20.7539C7.175 20.7539 3.25 16.8289 3.25 12.0039C3.25 9.62891 4.175 7.40391 5.875 5.76641C7.525 4.14141 9.7 3.25391 12 3.25391H20.75V12.0039Z' fill='%23002D25'/%3E%3Cpath d='M7.575 12.7914L12.6375 13.2914L9.5875 17.4539C9.45 17.6539 9.4625 17.9289 9.6375 18.1039C9.825 18.2914 10.1375 18.3039 10.3375 18.1164L16.7875 12.3289C17.2 11.9539 16.975 11.2664 16.4125 11.2164L11.35 10.7164L14.4 6.55391C14.5375 6.35391 14.525 6.07891 14.35 5.90391C14.1625 5.71641 13.85 5.70391 13.65 5.89141L7.2 11.6789C6.8 12.0539 7.025 12.7414 7.575 12.7914Z' fill='%23002D25'/%3E%3C/svg%3E");
+
+ --icon-book: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 24' fill='none'%3E%3Cpath d='M11.9098 %2F%2A%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226%22%20height%3D%2224%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20viewBox%3D%220%200%2026%2024%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22M11.9098%202.84934C10.0552%201.57675%207.82631%200.80153%205.41197%200.724227C3.98992%200.678696%202.61503%200.878993%201.32943%201.2876C0.950766%201.40795%200.689095%201.75393%200.67638%202.15106L0.106348%2019.9544C0.0966094%2020.2586%200.235123%2020.5486%200.477849%2020.7322C0.720574%2020.9157%201.03731%2020.9701%201.32734%2020.8779C2.41291%2020.5329%203.57556%2020.363%204.78193%2020.4016C7.27442%2020.4814%209.53025%2021.4382%2011.2656%2022.9676L11.9098%202.84934Z%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23002D25%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22M13.1397%2023.0276C14.9693%2021.6123%2017.2818%2020.8019%2019.7742%2020.8817C20.9806%2020.9203%2022.13%2021.1642%2023.1913%2021.5779C23.4748%2021.6885%2023.7944%2021.6545%2024.0484%2021.4868C24.3023%2021.3192%2024.4591%2021.0387%2024.4689%2020.7345L25.0389%202.9311C25.0516%202.53398%2024.8126%202.17197%2024.4424%202.02764C23.1856%201.53762%2021.8263%201.24979%2020.4043%201.20425C17.9899%201.12695%2015.716%201.75799%2013.7838%202.90934L13.1397%2023.0276Z%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23002D25%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fsvg%3E%20%2A%2F' fill='%23002D25'/%3E%3C/svg%3E");
+
+
+}
+ /* <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24"
+                                                viewBox="0 0 26 24" fill="none">
+                                                <path
+                                                    d="M11.9098 2.84934C10.0552 1.57675 7.82631 0.80153 5.41197 0.724227C3.98992 0.678696 2.61503 0.878993 1.32943 1.2876C0.950766 1.40795 0.689095 1.75393 0.67638 2.15106L0.106348 19.9544C0.0966094 20.2586 0.235123 20.5486 0.477849 20.7322C0.720574 20.9157 1.03731 20.9701 1.32734 20.8779C2.41291 20.5329 3.57556 20.363 4.78193 20.4016C7.27442 20.4814 9.53025 21.4382 11.2656 22.9676L11.9098 2.84934Z"
+                                                    fill="#002D25" />
+                                                <path
+                                                    d="M13.1397 23.0276C14.9693 21.6123 17.2818 20.8019 19.7742 20.8817C20.9806 20.9203 22.13 21.1642 23.1913 21.5779C23.4748 21.6885 23.7944 21.6545 24.0484 21.4868C24.3023 21.3192 24.4591 21.0387 24.4689 20.7345L25.0389 2.9311C25.0516 2.53398 24.8126 2.17197 24.4424 2.02764C23.1856 1.53762 21.8263 1.24979 20.4043 1.20425C17.9899 1.12695 15.716 1.75799 13.7838 2.90934L13.1397 23.0276Z"
+                                                    fill="#002D25" />
+                                            </svg> */
+.icon-book {
+  mask-image: var(--icon-book);
+  -webkit-mask-image: var(--icon-book);
+  width: 26px;
+  height: 24px;
+}
+.icon-2 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: currentColor;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.icon-energy {
+  mask-image: var(--icon-energy);
+  -webkit-mask-image: var(--icon-energy);
+}
+
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 8px;           /* match your SVG ratio 16:8 */
+  background-color: currentColor;
+  mask-image: var(--icon-arrow);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: var(--icon-arrow);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.icon-arrow {
+  mask-image: var(--icon-arrow);
+  -webkit-mask-image: var(--icon-arrow);
+}
 
 :root {
     --link-color--link-primary: #2d62ff;
@@ -156,6 +218,9 @@ main{
 }
 .navbar-menu-mobile{
 
+}
+.cte:hover .icon-arrow{
+    color: var(--primary);
 }
 /* .navbar-cta-wrapper{
 
@@ -1056,7 +1121,147 @@ main{
     inset: 0% auto auto 0%;
     overflow: hidden;
 }
+/* Contact us  */
+.contact-hero-wrapper{
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    flex-flow: column;
+    max-width: 35.31rem;
+    display: flex;
+}
+.section---contact-hero {
+    padding-top: 10.25rem;
+    padding-bottom: 6.25rem;
+    position: relative;
+}
+.contact-hero-subtext.body-regular {
+    color: var(--grey-300);
+}
+.contact-wrapper {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    align-items: start;
+    width: 100%;
+    display: grid;
+}
+.contact-form-block {
+    margin-bottom: 0;
+}
 
+.w-form {
+    margin: 0 0 15px;
+}
+.contact-form
+ {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    flex-flow: column;
+    display: flex;
+}
+.input-grid {
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 1.25rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+.contact-form-label {
+    margin-bottom: .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: 700;
+    display: block;
+}label {
+    margin-bottom: .25rem;
+    font-weight: 500;
+}
+
+.contact-form-input {
+    border: 1px solid #0000001a;
+    border-radius: 6.25rem;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 3.25rem;
+    margin-bottom: 0;
+    padding: 1.13rem 1.25rem;
+    transition: border .35s;
+    display: inline-flex;
+}
+.w-input, .w-select {
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 38px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    display: block;
+}
+.contact-form-input.text-area {
+    border-radius: 1.25rem;
+    min-height: 11.19rem;
+}
+
+textarea.w-input, textarea.w-select {
+    height: auto;
+}
+.contact-form-input {
+    border: 1px solid #0000001a;
+    border-radius: 6.25rem;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 3.25rem;
+    margin-bottom: 0;
+    padding: 1.13rem 1.25rem;
+    transition: border .35s;
+    display: inline-flex;
+}
+.w-input, .w-select {
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 38px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    display: block;
+}
+textarea {
+    overflow: auto;
+}
+input.w-button {
+    -webkit-appearance: button;
+}
+
+.contact-submit-btn {
+    background-color: var(--primary);
+    color: var(--accent);
+    border: 1px solid #002d25;
+    border-radius: 4.5rem;
+    min-height: 4.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color .35s, background-color .35s;
+}
+.section---contact {
+    padding-top: var(--section-y-padding);
+    padding-bottom: var(--section-y-padding);
+    position: relative;
+}
 /* footer */
 .footer {
     background-color: var(--footer-bg);

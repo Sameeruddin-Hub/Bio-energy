@@ -31,7 +31,8 @@ class NavBar extends HTMLElement {
                             Contact Us
                         </div>
                         <div class="cta-icon-wrap">
-                            <img src="" alt="">
+                         <i class="icon icon-arrow"></i>
+                            
                         </div>
                     </a>
                 </div>
