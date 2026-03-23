@@ -134,6 +134,13 @@ class NavBar extends HTMLElement {
 }
 customElements.define('nav-bar', NavBar);
 
+class Footer extends HTMLElement{
+    connectedCallback(){
+        this.innerHTML=``
+    }
+}
+customElements.define('footer', Footer);
+
 // menu button
 // document.querySelector('.navbar-hamburger-btn').addEventListener("click", () => {
 //     document.querySelector('.navbar-menu-mobile').classList.remove('hide');
