@@ -39,34 +39,45 @@
                                 Send us a Message
                             </h2>
                             <div class="contact-form-block">
-                                <form action="" class="contact-form">
+                                <form action="submit" id="form" class="contact-form">
+                                    <input type="hidden" name="access_key" value="e350bc00-b280-40ea-a796-f4932a3219e2">
                                     <div class="input-grid">
                                         <div class="input-filed-wrapper">
                                             <label for="first-name" class="contact-form-label">First Name</label>
-                                            <input type="text" class="contact-form-input w-input" placeholder="Type first name">
+                                            <input type="text" id="first-name" name="firstName" class="contact-form-input " placeholder="Type first name" required>
                                         </div>
                                         <div class="input-filed-wrapper">
                                             <label for="last-name" class="contact-form-label">Last Name</label>
-                                            <input type="text" class="contact-form-input w-input" placeholder="Type last name">
+                                            <input type="text" id="last-name" name="lastName" class="contact-form-input" placeholder="Type last name" required>
                                         </div>
                                     </div>
                                     <div class="input-grid">
                                         <div class="input-filed-wrapper">
                                             <label for="Email" class="contact-form-label">Email</label>
-                                            <input type="text" class="contact-form-input w-input" placeholder="Type Email">
+                                            <input type="text" id="Email" name="email" class="contact-form-input " placeholder="Type Email">
                                         </div>
                                         <div class="input-filed-wrapper">
                                             <label for="phone-number" class="contact-form-label">Phone Number</label>
-                                            <input type="text" class="contact-form-input w-input" placeholder="Type phone number">
+                                            <input type="text" id="phone-number" name="phoneNumber" class="contact-form-input " placeholder="Type phone number" required>
                                         </div>
                                          
                                     </div>
                                     <div class="input-filed-wrapper">
-                                            <label for="phone-number" class="contact-form-label">Phone Number</label>
-                                            <input type="text" class="contact-form-input text-area w-input" placeholder="Type phone number">
+                                            <label for="message" class="contact-form-label">Message</label>
+                                            <textarea type="text" id="message" name="message" class="contact-form-input text-area w-input " placeholder="Type your message" required></textarea>
                                         </div>
-                                        <input type="submit" placeholder="Submit" class="contact-submit-btn w-button" value="Send Message">
+                                        <input type="submit" id="subBtn" placeholder="Submit" class="contact-submit-btn w-button" value="Send Message">
                                 </form>
+                                <div class="success-message w-form-done">
+                                    <div class="success-message-text">
+                                        Thank you ! Your Submission has been recieved.  
+                                    </div>
+                                </div>
+                                <div class="error-message w-form-fail">
+                                    <div class="error-message-text">
+                                        Oops! Somthing went wrong please try again
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         
@@ -155,5 +166,6 @@
 
         
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

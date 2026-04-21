@@ -26,7 +26,7 @@ class NavBar extends HTMLElement {
                 </div>
                 <div class='nav-cta-menu'> 
                 <div class="navbar-cta-wrapper">
-                    <a href="" class="cta">
+                    <a href="contact.html" class="cta">
                         <div class="cta-text">
                             Contact Us
                         </div>
@@ -100,6 +100,7 @@ class NavBar extends HTMLElement {
         </nav>
         `;
         this.setActiveLink();
+        this.navScroll();
         this.setHamburger();
         document.body.style.visibility = 'visible';
     }
@@ -121,6 +122,7 @@ class NavBar extends HTMLElement {
 
        btn.addEventListener('click', () => {
             menu.classList.toggle('hide');
+            
         })
     
      window.addEventListener('resize', () => {
@@ -129,6 +131,30 @@ class NavBar extends HTMLElement {
         }
     });
     };
+
+  navScroll() {
+  const navbar = this.querySelector('.navbar.navbar-content');
+  const navLinks = this.querySelectorAll('.nav-link.navigation');
+  console.log(navbar);
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 20) {
+      navbar.style.backgroundColor = '#ffffff';
+      navbar.style.backdropFilter = 'none';
+
+      navLinks.forEach(link => {
+        link.style.color = '#002d25';
+      });
+    } else {
+      navbar.style.backgroundColor = '#002d2566';
+      navbar.style.backdropFilter = 'blur(7px)';
+
+      navLinks.forEach(link => {
+        link.style.color = '#ffffff';
+      });
+    }
+  });
+}
         
     
 }

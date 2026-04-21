@@ -1,0 +1,22 @@
+
+html,
+body,
+main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.detail-card{
+    border: 1px solid #dfdfdf;
+     box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.02),0px 2px 6px 0px rgba(0,0,0,0.04),0px 4px 8px 0px rgba(0,0,0,0.10);
+    background-color: white;
+    display: flex;
+    padding: 24px;
+}
+.composition-card{
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.02),0px 2px 6px 0px rgba(0,0,0,0.04),0px 4px 8px 0px rgba(0,0,0,0.10);
+    background-color: white;
+    /* border: 1px solid #dfdfdf; */
+    padding: 8px;
+} 
