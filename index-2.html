@@ -1,25 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style-2.css">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="prac.js"></script>
 </head>
-<body>
-    <div class="detail-card" >
-        <div>
- <h1 style="margin: 0;">
-            hello
-        </h1>
-       <div class="composition-card">
-        <input type="text">
-        <img src="" alt="">
-        <a href="https://www.airbnb.co.in/"  > search</a>
-       </div>
-        </div>
-       
-    </div>
-</body>
-</html>
 
+<body>
+    <nav id="sidebar">
+        <ul>
+            <li class="logo">
+                <a href="#">
+                    <i class="fi fi-rr-rocket"></i>
+
+                    <button id="toggle-btn">
+                        <i class="fi fi-rr-angle-double-small-left"></i>
+                    </button>
+                </a>
+            </li>
+            <li class="active">
+                <a href="#">
+                    <i class="fi fi-rr-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fi fi-rr-user"></i>
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fi fi-rr-settings"></i>
+                    <span> Services</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fi fi-rr-phone-flip"></i>
+                    <span> Contact</span>
+                </a>
+            </li>
+            <li>
+                <button onclick="toggleSubmenu(this)" class='dropdown-btn rotate'>
+                    <i class="fi fi-rr-apps-add"></i>
+                    <span>Create</span>
+                    <i class=" fi fi-rr-angle-small-down"></i>
+                </button>
+                <ul class="sub-menu">
+                    <div>
+                        <li><a href="#">New Project</a></li>
+                        <li><a href="#">New Task</a></li>
+                        <li><a href="#">New Team</a></li>
+                    </div>
+
+                </ul>
+            </li>
+        </ul>
+        </li>
+        <li>
+            <button onclick="toggleSubmenu(this)" class='dropdown-btn rotate'>
+                <i class="fi fi-rr-apps-add"></i>
+                <span>Todo list</span>
+                <i class=" fi fi-rr-angle-small-down"></i>
+            </button>
+            <ul class="sub-menu">
+                <div>
+                    <li><a href="#">New Project</a></li>
+                    <li><a href="#">New Task</a></li>
+                    <li><a href="#">New Team</a></li>
+                </div>
+
+            </ul>
+        </li>
+        </ul>
+        </li>
+        </ul>
+
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Hello World!</h2>
+            <p>This is a simple HTML page styled with Tailwind CSS.</p>
+        </div>
+        <div class="container">
+            <h2>Example heading</h2>
+            <p>This is a simple HTML page styled with Tailwind CSS.</p>
+        </div>
+        <div class="container">
+            <h2>Hello World!</h2>
+            <p>This is a simple HTML page styled with Tailwind CSS.</p>
+        </div>
+    </main>
+</body>
+
+</html>
