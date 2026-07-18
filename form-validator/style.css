@@ -1,3 +1,8 @@
+:root {
+    --king: rgb(238, 30, 30);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -99,4 +104,34 @@ button:hover {
     color: #e74c3c;
     visibility: visible;
 
+}
+
+h2 {
+    color: crimson;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    transition: all ease 0.2s;
+
+}
+
+h2:hover::after {
+    width: 100%;
+    background-color: royalblue;
+
+}
+
+.ex {
+    padding: 8px 14px;
+    font-size: 16px;
+    color: white;
 }

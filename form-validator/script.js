@@ -5,6 +5,8 @@ const password = document.getElementById("password");
 const confirmPassword = document.getElementById("confirmPassword");
 
 console.log(username)
+
+
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 
@@ -85,3 +87,6 @@ function checkLength(input, min, max) {
         return true
     }
 }
+
+
+// console.log("hello there")

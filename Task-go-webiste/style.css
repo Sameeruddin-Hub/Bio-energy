@@ -1,0 +1,33 @@
+:root {
+    --primary: #6049e7;
+    --secondary: #0d062d;
+    --text-seondary: #4e4d53;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    font-family: Inter;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre {
+    margin: 0;
+    padding: 0;
+}
