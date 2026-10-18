@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-deep-blue: #02042a;
+    --color-light-blue: #2b84ea;
+    --color-light-blue-300: #4b94ed;
+    --color-light-blue-500: #0b72e7;
+    --color-green-light: #61cea6;
+    --color-gray-text: #818597;
+    --color-light-gray: #e2e2e2;
+    --color-gray-blue: #344a6c;
+    --color-deep-blue-head: #162f56;
+    --color-gray2: #525a76;
+}
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+/* Should not use the below code because it will break the tailwind css classes. Tailwind uses box-sizing: border-box by default, and resetting padding and margin to 0 can interfere with its utility classes. Instead, you can use Tailwind's utility classes to manage spacing and box-sizing as needed. */
+
+html,
+body {
+    font-family: 'Mulish', sans-serif;
+}

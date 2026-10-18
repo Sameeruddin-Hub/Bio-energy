@@ -1,0 +1,39 @@
+body {
+    background: var(--color-amber-50);
+}
+
+.container {
+    display: flex;
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+
+.container h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.container ul li {
+    /* text-decoration: none; */
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    /* border: 1px solid #686868; */
+    margin-bottom: 20px;
+}

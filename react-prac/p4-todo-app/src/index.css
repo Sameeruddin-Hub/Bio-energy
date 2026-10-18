@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@import "@flaticon/flaticon-uicons/css/all/all.css";
+
+
+body {
+    font-family: 'Plus Jakarta sans', sans-serif;
+}
+
+.todo-input {
+    /* appearance: 0; */
+    accent-color: var(--color-blue-500);
+    border: 2px solid white;
+}
+
+.todo-input:checked {
+    background-color: var(--color-blue-600);
+}
